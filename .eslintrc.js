@@ -1,5 +1,5 @@
 module.exports = {
-  parser: "@typescript-eslint/parser",
+  parser: '@typescript-eslint/parser',
   env: {
     browser: true,
     commonjs: true,
@@ -22,13 +22,16 @@ module.exports = {
     },
     ecmaVersion: 2020,
     sourceType: 'module',
-    project: './tsconfig.json'
+    project: './tsconfig.json',
   },
   plugins: ['react', 'prettier', '@typescript-eslint'],
   rules: {
     'react/display-name': 'off',
     'react/prop-types': 'off',
     'prettier/prettier': 'error',
-    'react/jsx-filename-extension': [1, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
-  }
+    'react/jsx-filename-extension': [
+      1,
+      { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
+    ],
+  },
 };
