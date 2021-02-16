@@ -9,7 +9,6 @@ module.exports = {
     'airbnb',
     'eslint:recommended',
     'plugin:jsx-a11y/recommended',
-    'plugin:react/recommended',
     'plugin:prettier/recommended',
     'prettier/react',
     'plugin:@typescript-eslint/recommended',
@@ -24,7 +23,7 @@ module.exports = {
     sourceType: 'module',
     project: './tsconfig.json',
   },
-  plugins: ['react', 'prettier', '@typescript-eslint'],
+  plugins: ['prettier', '@typescript-eslint'],
   rules: {
     'react/display-name': 'off',
     'react/prop-types': 'off',
