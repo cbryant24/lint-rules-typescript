@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "@cbryant24/eslint-config-typescript"
+  ],
+  "rules": {
+    "no-console": [
+      "warn"
+    ],
+    // "no-unused-vars": ["error"]
+  }
+}

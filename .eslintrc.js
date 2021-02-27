@@ -8,6 +8,10 @@ module.exports = {
   extends: [
     'airbnb',
     'eslint:recommended',
+    'plugin:import/errors',
+    'plugin:import/warnings',
+    'plugin:react/recommended',
+    'plugin:import/typescript',
     'plugin:jsx-a11y/recommended',
     'plugin:prettier/recommended',
     'prettier/react',
@@ -28,9 +32,21 @@ module.exports = {
     'react/display-name': 'off',
     'react/prop-types': 'off',
     'prettier/prettier': 'error',
+    'react/jsx-uses-react': 'off',
+    'react/react-in-jsx-scope': 'off',
     'react/jsx-filename-extension': [
       1,
       { extensions: ['.js', '.jsx', '.ts', '.tsx'] },
+    ],
+    'import/extensions': [
+      'error',
+      'always',
+      {
+        js: 'never',
+        jsx: 'never',
+        ts: 'never',
+        tsx: 'never',
+      },
     ],
   },
 };

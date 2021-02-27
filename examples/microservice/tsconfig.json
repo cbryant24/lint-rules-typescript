@@ -1,0 +1,18 @@
+{
+  "extends": "@cbryant24/eslint-config-typescript/tsconfig.json",
+  "compilerOptions": {
+    // "esModuleInterop": false,
+    // "noUnusedLocals": false,
+    // "noUnusedLocals": true,
+  },
+  "include": [
+    "./**/*.tsx",
+    "./**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ],
+  "types": [
+    "node"
+  ]
+}

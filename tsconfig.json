@@ -6,7 +6,12 @@
     "preserveConstEnums": true,
     "sourceMap": true,
     "target": "es6",
-    "lib": ["dom", "es6", "es2017", "esnext.asynciterable"],
+    "lib": [
+      "dom",
+      "es6",
+      "es2017",
+      "esnext.asynciterable"
+    ],
     "outDir": "./dist",
     "moduleResolution": "node",
     "declaration": false,
@@ -15,7 +20,7 @@
     "strictNullChecks": true,
     "strictFunctionTypes": true,
     "noImplicitThis": true,
-    "noUnusedLocals": false,
+    "noUnusedLocals": true,
     "noUnusedParameters": false,
     "noImplicitReturns": false,
     "noFallthroughCasesInSwitch": true,
@@ -31,7 +36,6 @@
     "resolveJsonModule": true,
     "noEmit": true,
     "jsx": "react-jsx",
-    
   },
   "defaultSeverity": "error",
   "jsRules": {},

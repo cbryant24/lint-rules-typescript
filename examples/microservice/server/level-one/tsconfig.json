@@ -1,0 +1,13 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    // "noUnusedLocals": false, 
+  },
+  "esModuleInterop": true,
+  "exclude": ["node_modules"],
+  "include": [
+    "./*.tsx",
+    "./*.ts"
+  ],
+  "types": ["node"]
+}

@@ -1,0 +1,17 @@
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    // "jsx": "react",
+    // "jsx": "react-jsx",
+    // "noUnusedLocals": false,
+    // "noUnusedLocals": true,
+    "outDir": "dist",
+  },
+  "include": [
+    "./**/*.tsx",
+    "./**/*.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
